@@ -1,0 +1,52 @@
+@charset "UTF-8";
+body{
+	margin:0;
+	padding:0;
+	
+}
+.atm-container{
+	height:100%;
+	width:500px;
+
+   
+    background: linear-gradient(135deg, #134E5E, #71B280);
+
+    color: white;
+
+    border: 1px solid #e9ecef;
+    box-shadow: 0 4px 6px rgba(0,0,0,3.45);
+	margin-left:20px;
+	border-radius:10px;
+	border-top-right-radius:30%;
+		border-bottom-left-radius:30%;
+	border: 1px solid #e9ecef;
+	padding:5px;
+	
+	margin-top:50px;
+	margin-left:30%;
+	padding :auto;
+}
+.form-group {
+    display: flex;
+    flex-direction: column;    
+    align-items: stretch;      
+    margin-bottom: 20px;   
+    margin-left:30px;    
+}
+
+
+.form-group label {
+    margin-bottom: 8px;        
+    font-weight: bold;
+    font-size: 30px;
+}.form-control{height:40px;	border-radius:30px;
+width:40%;
+margin:auto;
+	
+}.btn{
+	height:30px;
+	width:50%;
+	border-radius:30px;
+	margin-left:30%;
+	margin-bottom:20px;
+}
